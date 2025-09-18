@@ -1,0 +1,48 @@
+Part 1: Collections (List, Set, Map)
+
+Q1. Create an ArrayList<String> of 5 fruit names. Print them using:
+
+for loop
+
+for-each loop
+
+
+Q2. Store 10 random integers in a HashSet. Try to add duplicates and check what happens.
+
+Q3. Create a HashMap<Integer, String> where keys are roll numbers and values are student names. Print all roll numbers and names.
+
+ Part 2: Basic Data Structures
+
+Q4. Implement a stack using ArrayList. Add push and pop operations.
+
+Q5. Use a LinkedList as a queue. Add 5 elements, then remove 2 elements. Print the queue after each operation.
+
+ Part 3: Inheritance
+
+Q6. Create a class Person with name and age.
+Create a subclass Student with rollNo and marks.
+
+Write a method in Person to display name & age.
+
+Write a method in Student to display rollNo & marks.
+
+Create an object of Student and call both methods.
+
+ Part 4: Interfaces
+
+Q7. Create an interface Shape with method area().
+Implement it in Circle and Rectangle classes. Print their areas.
+
+Q8. Create two interfaces:
+
+Playable (method play())
+
+Recordable (method record())
+Create a class MediaPlayer that implements both.
+
+ Part 5: Passing Objects
+
+Q9. Create a class Book with attributes title and price.
+Write a method printBook(Book b) in another class to print details of the book.
+
+Q10. Write a program where you pass a Student object to a method that increases their marks by 10, then print the updated marks.
