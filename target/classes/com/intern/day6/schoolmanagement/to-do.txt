@@ -1,0 +1,46 @@
+Assignment: Student Management System (Java Console Project)
+ Objective
+The aim of this project is to help learn Object-Oriented Programming (OOP) concepts in Java, including classes, objects, methods, encapsulation, collections, and user interaction through console-based menus.
+ 
+ Problem Statement
+You are appointed as the Class Representative (CR) of your batch. Your teacher has asked you to maintain the student records of your class.
+Instead of keeping this data on paper, you will design a Java program called Student Management System that will store and manage student details.
+The system should allow:
+Adding new students
+Updating student marks
+Displaying all student records
+Exiting the program
+ 
+ Requirements
+Use Java Classes and Objects to model the system.
+Use an ArrayList (or any collection) to store multiple students.
+Use Scanner for user input.
+Implement a menu-driven console application.
+Ensure proper methods are used for each operation (Add, Update, Display).
+ 
+ Class Design
+Class: Student
+Fields: rollNo, name, marks
+Constructor: initialize the student object
+Method: display() → print student details
+Class: StudentManagement
+Field: ArrayList<Student> → list of all students
+Methods:
+addStudent(int rollNo, String name, int marks)
+updateMarks(int rollNo, int newMarks)
+displayAll()
+Class: Main
+Method: main() → menu for the user to interact with the system
+ 
+ Tasks
+Create a Student class with required fields and methods.
+Create a StudentManagement class to handle the list of students.
+Implement a menu in the Main class with the following options:
+Add Student
+Update Marks
+Display All Students
+Exit
+Test your program by:
+Adding at least 3 students
+Updating marks of one student
+Displaying all student details
